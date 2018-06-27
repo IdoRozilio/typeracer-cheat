@@ -1,5 +1,5 @@
 /****************************************************************************************************************
-* Run it in the chrome console before the game starts, press space whenever you want it to fill the word for you.
+* Run it in the chrome console before the game starts, press space and it will type the word for you.
 *****************************************************************************************************************/
 
 var last = document.getElementsByClassName("inputPanel")[0].getElementsByTagName("tbody")[0].getElementsByTagName("tr")[0].getElementsByTagName("td")[0].getElementsByTagName("div")[0].getElementsByTagName("div")[0];
