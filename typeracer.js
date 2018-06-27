@@ -8,8 +8,8 @@ var text = "";
 try {
 	text = last.getElementsByTagName("span")[0].innerHTML + last.getElementsByTagName("span")[1].innerHTML + last.getElementsByTagName("span")[2].innerHTML
 }
-catch{
- text = last.getElementsByTagName("span")[0].innerHTML + last.getElementsByTagName("span")[1].innerHTML
+catch {
+ 	text = last.getElementsByTagName("span")[0].innerHTML + last.getElementsByTagName("span")[1].innerHTML
 }
 
 console.log(text)
